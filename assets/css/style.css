@@ -1,0 +1,24 @@
+/*I did the wireframe in figma and I choose this 3 colors for my project. Whit that I created a varivel with this colors*/
+:root {
+  --yellow: rgb(210, 158, 53, 0.7);
+  --white: rgb(249, 245, 241);
+  --color: rgb(243, 239, 231, 0.8);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--white);
+}
+header {
+  height: 100px;
+}
+.logo {
+  float: left;
+  padding: 10px;
+  margin: 30px;
+}
