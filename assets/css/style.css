@@ -136,3 +136,140 @@ a {
   width: 100vw;
   height: 100%;
 }
+.projects-grid {
+  margin: 0 auto;
+  display: grid;
+  width: 80%;
+  gap: 40px;
+  /* background-color: pink; */
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: 50 50%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "Frontend Frontend"
+    "cardone cardtwo";
+}
+.card-main {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 60px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s ease;
+  background-color: var(--color);
+  grid-area: Frontend;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.card-main:hover .coming-soon {
+  opacity: 1;
+}
+.coming-soon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: var(--yellow);
+}
+
+.card-main h3 {
+  margin-bottom: 20px;
+}
+.workp {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.card-one {
+  background-color: var(--color);
+  grid-area: cardone;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  position: relative;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.card-one:hover .cardonehover {
+  opacity: 1;
+}
+.cardonehover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: var(--yellow);
+}
+.card-two {
+  width: 100%;
+  padding: 30px;
+  background-color: var(--color);
+  grid-area: cardtwo;
+  position: relative;
+  cursor: pointer;
+  height: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.card-two:hover .card-two-hover {
+  opacity: 1;
+}
+.card-two-hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: var(--yellow);
+}
+.work {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.card-main-image {
+  display: flex;
+  justify-content: center;
+}
+.card-main-image:hover .workp {
+  opacity: 1;
+}
+.card-image {
+  display: flex;
+  justify-content: center;
+}
+
+.card-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
