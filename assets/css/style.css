@@ -273,3 +273,22 @@ a {
   max-height: 100%;
   object-fit: cover;
 }
+footer {
+  margin: 0 auto;
+  background-color: var(--yellow);
+  width: 100%;
+  padding-top: 5px;
+  /* background-color: pink; */
+}
+.contactme {
+  display: flex;
+  justify-content: center;
+  /* background-color: blue; */
+}
+
+.lk,
+.bh,
+.tw,
+.git {
+  margin-right: 20px;
+}
