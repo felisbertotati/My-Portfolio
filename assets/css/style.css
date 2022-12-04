@@ -16,6 +16,7 @@ body {
   font-family: "Inter", sans-serif;
   background-color: var(--white);
 }
+/*Header of the page contain logo and navbar*/
 header {
   height: 100px;
 }
@@ -24,6 +25,7 @@ header {
   padding: 10px;
   margin: 30px;
 }
+/*Ordinary list, it wil be the nav bar in the website, I styled to the right, color black when hover it I put a underline and added color*/
 ul {
   list-style: none;
   padding: 50px;
@@ -46,6 +48,7 @@ li a:hover {
   text-decoration: underline;
   transition: 1s;
 }
+/*Define main pardo of the website*/
 main {
   margin: 0 auto;
   display: flex;
@@ -136,6 +139,7 @@ a {
   width: 100vw;
   height: 100%;
 }
+/*I style the work content in grid, creating two rows and two columns. first row it will be the biggest one and the second I divided in two sections*/
 .projects-grid {
   margin: 0 auto;
   display: grid;
@@ -150,6 +154,7 @@ a {
     "Frontend Frontend"
     "cardone cardtwo";
 }
+/*This section it wil be the first one and the biggest one. It has box shadow and when you pass the mouse it will hover with color and text. It is linked to my github page*/
 .card-main {
   width: 100%;
   height: 100%;
@@ -273,6 +278,7 @@ a {
   max-height: 100%;
   object-fit: cover;
 }
+/*Define footer on the page*/
 footer {
   margin: 0 auto;
   background-color: var(--yellow);
