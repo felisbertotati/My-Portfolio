@@ -297,6 +297,7 @@ footer {
 .tw,
 .git {
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 @media only screen and (max-width: 1000px) {
   header {
@@ -307,7 +308,7 @@ footer {
     flex-direction: column;
   }
   h1 {
-    font-size: 30px;
+    font-size: 20px;
   }
   h2 {
     font-size: 20px;
@@ -316,7 +317,7 @@ footer {
     text-align: center;
   }
   .avatar {
-    max-width: 67%;
+    max-width: 50%;
   }
 
   button {
@@ -327,11 +328,13 @@ footer {
   }
   .mylife {
     text-align: left;
-    margin-left: 120px;
+    margin-left: 50px;
     line-height: 1;
     font-size: 15px;
   }
   .myimage {
-    max-width: 100px;
+    max-width: 60px;
   }
+}
+@media only screen and (max-width: 600px) {
 }
