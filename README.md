@@ -9,5 +9,5 @@ This project is the secoond project in the bootcamp. It consits of students doin
 * Website page should be responsive in various screens devices.
 
 ## Preview
-
+ ![alt text](https://github.com/felisbertotati/My-Portfolio/blob/main/assets/images/_D__bootcamp_student_My-Portfolio_index.html.png?raw=true)
 
