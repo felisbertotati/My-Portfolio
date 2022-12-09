@@ -1,6 +1,6 @@
 # My-Portfolio
 ## Decription
-This project is the secoond project in the bootcamp. It consits of students doing their own portfolio. So that we can show our skills and talents to employers.I had to implement:
+This project is the second project in the bootcamp. It consits of students doing their own portfolio. So that we can show our skills and talents to employers.I had to implement:
 * First section header with logo and navigation bar linked with other parts of the project, recent photo or avatar, name and a link to contact me;
 * All navabar links should go to the corresponding section;
 * First image of work section should be large than the other ones;
